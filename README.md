@@ -180,3 +180,150 @@ else:
 
 Now only one condition executes.
 
+
+---
+
+# PART D – PAN Card Validator
+
+## Objective
+
+Validate an **Indian PAN card number** using conditional logic.
+
+### PAN Format
+
+```
+ABCDE1234F
+```
+
+Structure:
+
+| Position | Requirement       |
+| -------- | ----------------- |
+| 1–5      | Uppercase letters |
+| 6–9      | Digits            |
+| 10       | Uppercase letter  |
+
+Example of a valid PAN:
+
+```
+ABCDE1234F
+```
+
+### Program Validation Steps
+
+The program checks:
+
+1. PAN length must be **10 characters**
+2. First **5 characters must be letters**
+3. Next **4 characters must be digits**
+4. Last **character must be a letter**
+5. Entire PAN must be **uppercase**
+
+### Output
+
+Valid PAN example:
+
+```
+Valid PAN Number
+Taxpayer type indicator: D
+```
+
+Invalid PAN example:
+
+```
+Invalid PAN: Length must be 10 characters
+```
+
+---
+
+# PART E – Smart Transaction Validator
+
+## Objective
+
+Simulate a **rule-based fraud detection system** for financial transactions.
+
+### Inputs
+
+* transaction amount
+* transaction category
+* transaction hour
+* amount already spent today
+* VIP status
+
+### Blocking Rules
+
+Transaction is **BLOCKED** if:
+
+* amount > ₹50,000
+* daily spending exceeds ₹100,000
+
+Blocking rules override all other checks.
+
+---
+
+### Flag Rules
+
+Transaction is **FLAGGED** if:
+
+* transaction occurs **before 6 AM**
+* transaction occurs **after 11 PM**
+
+---
+
+### Category Limits
+
+| Category    | Limit   |
+| ----------- | ------- |
+| Food        | ₹5,000  |
+| Electronics | ₹30,000 |
+
+If exceeded → **FLAGGED**
+
+---
+
+### VIP Enhancement
+
+VIP users get **double limits**.
+
+Example:
+
+| Rule               | Normal   | VIP      |
+| ------------------ | -------- | -------- |
+| Single transaction | ₹50,000  | ₹100,000 |
+| Daily limit        | ₹100,000 | ₹200,000 |
+
+Implemented using **Python ternary operator**.
+
+---
+
+### Possible Outputs
+
+```
+APPROVED
+FLAGGED: unusual transaction hour
+FLAGGED: category limit exceeded
+BLOCKED: exceeds single transaction limit
+BLOCKED: exceeds daily spending limit
+```
+
+---
+
+# Repository Structure
+
+```
+Day_08
+│
+├── admission_system.py
+├── tax_calculator.py
+├── pan_validator.py
+├── transaction_validator.py
+└── README.md
+```
+
+---
+
+# Author
+
+Python Day-08 Conditional Logic Assignment
+
+
