@@ -1,0 +1,10 @@
+PS C:\Users\himkar vashistha\Desktop\assignment_day_8_AM> python tax_calculator.py
+Enter your annual income (Rs): 1000000
+
+Standard Deduction Applied: Rs. 75000
+Taxable Income: 925000.0
+0 - 3L taxed at 0%: Rs. 0
+3L - 7L taxed at 5%: 20000.0
+7L - 925000.0  taxed at 10%: 22500.0
+
+Total Tax: 42500.0
