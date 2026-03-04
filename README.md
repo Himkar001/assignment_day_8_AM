@@ -311,8 +311,7 @@ BLOCKED: exceeds daily spending limit
 # Repository Structure
 
 ```
-Day_08
-│
+
 ├── admission_system.py
 ├── tax_calculator.py
 ├── pan_validator.py
@@ -320,10 +319,5 @@ Day_08
 └── README.md
 ```
 
----
-
-# Author
-
-Python Day-08 Conditional Logic Assignment
 
 
