@@ -1,0 +1,7 @@
+PS C:\Users\himkar vashistha\Desktop\assignment_day_8_AM> python transaction_validator.py
+Transaction amount (Rs): 100000
+Category (food/travel/electronics/other): TRAVEL
+Hour of transaction (0-23): 12
+Amount already spent today (Rs): 10000
+VIP customer? (yes/no): YES
+APPROVED
