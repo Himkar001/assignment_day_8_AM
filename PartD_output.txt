@@ -1,0 +1,4 @@
+PS C:\Users\himkar vashistha\Desktop\assignment_day_8_AM> python pan_validator.py
+Enter PAN number: ABCDE1234F
+Valid PAN Number
+Taxpayer type indicator: D
