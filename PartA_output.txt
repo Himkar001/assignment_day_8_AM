@@ -1,0 +1,12 @@
+PS C:\Users\himkar vashistha\Desktop\assignment_day_8_AM> python admission_system.py
+Entrance Score (0-100): 75
+GPA (0-10): 7.0
+Recommendation letter (yes/no): YES
+Category (general/obc/sc_st): GENERAL
+Extracurricular Score (0-10): 9
+
+Bonus Applied: 8
+Effective Score: 83
+
+Result: ADMITTED (Regular)
+Reason: Meets category cutoff and GPA requirement
